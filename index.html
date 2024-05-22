@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orange-Task-4</title>
+  </head>
+  <body>
+    <h1>Fill in your information</h1>
+    <form action="" border="12">
+      <fieldset>
+        <legend>Form</legend>
+        <div>
+          <label for="">First name:</label><br />
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Last name:</label><br />
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Email:</label><br />
+          <input type="email" />
+        </div>
+        <br />
+        <h3>Your Gender</h3>
+        <div>
+          <input type="radio" name="gender" value="male" /><label for="">
+            Male</label
+          >
+          <input type="radio" name="gender" value="female" /><label for="">
+            Female</label
+          >
+        </div>
+        <h3>Favorite Subjects</h3>
+
+        <div>
+          <input type="checkbox" value="c++" name="favoritesubjects" />
+          <label for="">C++</label>
+          <input type="checkbox" value="Java" name="favoritesubjects" />
+          <label for=""> Java</label>
+          <input type="checkbox" value="c#" name="favoritesubjects" />
+          <label for=""> C#</label>
+          <input type="checkbox" value="php" name="favoritesubjects" />
+          <label for=""> PHP</label>
+          <input type="checkbox" value="sql" name="favoritesubjects" />
+          <label for=""> SQL</label>
+        </div>
+        <h3>Your City</h3>
+        <div>
+          <div>
+            <label for="">City:</label>
+            <select name="city" id="">
+              <option value="irbid">Irbid</option>
+              <option value="amman">Amman</option>
+              <option value="Daraa">Daraa</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="">Upload Image: </label>
+            <input type="file" />
+          </div>
+          <br />
+          <div>
+            <label for="">Write About Yourself</label><br />
+            <textarea name="aboutyourself" placeholder="Wite Here" rows="5" cols="40"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
